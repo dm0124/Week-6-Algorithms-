@@ -45,6 +45,11 @@ ________________________________________________________________________________
 #create SVM model
 #produce plots, analyze, Setosa separated [high confidence], Versicolor and Virginica overlaping.
 
+Actual
+Predicted    setosa versicolor virginica
+  setosa         50          0         0
+  versicolor      0         48         2
+  virginica       0          2        48
 
 #           Actual
 #Predicted    setosa versicolor virginica
