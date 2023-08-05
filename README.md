@@ -30,11 +30,11 @@ ________________________________________________________________________________
 #applaying K-means clustering algorithm, k=3
 #results of clustering; produce plots
 
-iris.class
-    setosa versicolor virginica
-  1      0         47        14
-  2      0          3        36
-  3     50          0         0
+#iris.class
+#    setosa versicolor virginica
+#  1      0         47        14
+#  2      0          3        36
+#  3     50          0         0
   __________________________________________________________________________________________
 #SVM Algorithm
 #Answer: 97.33% were correctly classified, 146 of 150
@@ -46,10 +46,10 @@ iris.class
 #produce plots, analyze, Setosa separated [high confidence], Versicolor and Virginica overlaping.
 
 
-           Actual
-Predicted    setosa versicolor virginica
-  setosa         50          0         0
-  versicolor      0         48         2
-  virginica       0          2        48
-> 1-sum(diag(tab)/sum(tab))
-[1] 0.02666667 #missclassification rate
+#           Actual
+#Predicted    setosa versicolor virginica
+#  setosa         50          0         0
+#  versicolor      0         48         2
+#  virginica       0          2        48
+#> 1-sum(diag(tab)/sum(tab))
+#[1] 0.02666667 #missclassification rate
