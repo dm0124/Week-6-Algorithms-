@@ -1,8 +1,15 @@
 # Week-6-Algorithms-
 Testing of 3 different algorithms: SVM, K-Means, C50
+SVM accuracy: 97.33% were correctly classified, 146 of 150
+
+K Means accuracy: 88.667%; correctly classified instances 133 of 150
+
+C50 accuracy: iteration 1: 91.11%; iteration 2: 97.8%
+
 _____________________________________________________________________________
 #The C5.0 algorithm
 #Answer: 91.11% of cases were correctly classified.
+In 2. Iteration I got better results 97.8%
 #first we instaled packages "C50", "dplyr", "caret", "lattice", "ggplot2", "gmodels"
 #iris data analysis: total 150 observations; 5 variables
 #spliting data set to training and test sets by Species [setosa, versicolor, virginica]: 50 observation each
@@ -18,6 +25,17 @@ _____________________________________________________________________________
           |         4 |        41 | 
           |     0.089 |     0.911 | 
           |-----------|-----------|
+
+In 2. Iteration I got better results 97.8%
+Total Observations in Table:  45 
+
+ 
+          |     FALSE |      TRUE | 
+          |-----------|-----------|
+          |         1 |        44 | 
+          |     0.022 |     0.978 | 
+          |-----------|-----------|
+
 _____________________________________________________________________________________
 #K-Means Clustering
 #Answer:88.667%; correctly classified instances 133 of 150
